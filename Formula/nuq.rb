@@ -1,19 +1,19 @@
 class Nuq < Formula
   desc "Lightweight meta harness for Claude Code, Codex and Copilot agents"
   homepage "https://github.com/lordofthetobacco/nuq"
-  url "https://github.com/lordofthetobacco/nuq/releases/download/v0.1.0/nuq-0.1.0-macos-universal.tar.gz"
-  sha256 "3cbff93aba08385d24c140c99d23da9b4f021d8ee3d5813bbaf4763148353765"
+  url "https://github.com/lordofthetobacco/nuq/releases/download/v0.1.1/nuq-0.1.1-macos-universal.tar.gz"
+  sha256 "e15c11e475a0d931227cbfbcc8e07dc7f99bb0b7500dcd61db53e279fab4f5b4"
 
   depends_on "tmux"
 
   on_linux do
     on_arm do
-      url "https://github.com/lordofthetobacco/nuq/releases/download/v0.1.0/nuq-0.1.0-linux-aarch64.tar.gz"
-      sha256 "b4260b0abd80d6a58278b006c62520436ca0db5c9f9e49197240bc7327df8925"
+      url "https://github.com/lordofthetobacco/nuq/releases/download/v0.1.1/nuq-0.1.1-linux-aarch64.tar.gz"
+      sha256 "14549e4494829e88280b2de9f0af4a14b5bb3b37f91d41254148f532f5adee6e"
     end
     on_intel do
-      url "https://github.com/lordofthetobacco/nuq/releases/download/v0.1.0/nuq-0.1.0-linux-x86_64.tar.gz"
-      sha256 "994e76bcab17962e191d9b35729a2eae78dafa759a442cd68978e9f338c2486f"
+      url "https://github.com/lordofthetobacco/nuq/releases/download/v0.1.1/nuq-0.1.1-linux-x86_64.tar.gz"
+      sha256 "7c7543039622015b97a5dab87b9a578b71620228ca1fe056db25653c46ba148d"
     end
   end
 
